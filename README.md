@@ -1,1 +1,1 @@
-# aws-vault-docker
+# Dockerized version of [aws-vault](https://github.com/99designs/aws-vault)

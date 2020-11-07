@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t aws-vault-dockerized .
+docker run -ti --rm -v="$HOME"/.awsvault:/root/.awsvault:delegated aws-vault-dockerized bash
